@@ -1,0 +1,42 @@
+# Node
+node_modules/
+dist/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*.local
+
+# TypeScript build
+*.tsbuildinfo
+
+# Lint/Format caches
+.eslintcache
+
+# Husky
+.husky/_
+
+# Coverage/test output
+coverage/
+test-results/
+
+# Git commit tools
+.commitlintrc.json
