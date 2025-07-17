@@ -1,8 +1,43 @@
-# todo-list-app-react
+# 📝 Todo List App (React + TypeScript + Vite)
 
-# React + TypeScript + Vite
+A modern and modular **To-do List** application built using **React**, **TypeScript**, and **Vite**. The app supports **pagination**, **virtualized rendering**, **drag and drop**, **responsive UI**, and **form validation** — perfect for scalable, real-world use cases.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
+
+
+## 🚀 Get Started
+
+> Follow these simple steps to run the project locally.
+
+### 1. Clone the repository
+
+```bash
+git clone <repo url>
+cd todo-list-app-react
+npm i
+npm run dev
+
+## ⚙️ Tech Stack
+
+-  **React 18**
+- **Vite** – blazing fast build tool
+- **Redux Toolkit** for global state
+- **TypeScript** for static type safety
+- **MUI (Material UI)** for UI components
+- **styled-components** for custom styling
+- **Jest** + **Testing Library** (optional)
+- **ESLint** + **Prettier** for code linting and formatting
+
+## 🏛️ Architecture Overview
+
+src/
+├── components/ # Reusable UI components
+├── pages/ # Page-level components (e.g., Dashboard)
+├── store/ # Redux store slices & configuration
+├── styles/ # Global and shared styles
+├── types/ # TypeScript interfaces and types
+├── utils/ # Constants, helpers
+└── main.tsx # Entry point
 
 Currently, two official plugins are available:
 
